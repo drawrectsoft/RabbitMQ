@@ -65,12 +65,15 @@ let package = Package(
     targets: [
         .target(
             name: "RMQClient",
+            path: "RMQClient",
             dependencies: []),
         .testTarget(
             name: "RMQClientTests",
+            path: "RMQClientTests",
             dependencies: []),
         .testTarget(
             name: "RMQClientIntegrationTests",
+            path: "RMQClientIntegrationTests",
             dependencies: [])
         ]
 )

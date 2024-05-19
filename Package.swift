@@ -59,8 +59,8 @@ let package = Package(
         .library(name: "RMQClient", targets: ["RMQClient"])
         ],
     dependencies: [
-        .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket.git", from: "7.6.3"),
-        .package(url: "https://github.com/jeffh/JKVValue.git", from: "1.3.3")
+        .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket.git", from: "7.6.4"),
+        .package(url: "https://github.com/richsal/JKVValue.git", from: "1.3.4")
     ],
     targets: [
         .target(
